@@ -155,7 +155,7 @@ float total_odom = 0;
     
     isCapturing = NO;
     
-    [CameraUtils setExposureOffset: -1.0f];
+    [CameraUtils setExposureOffset: 0.0f];
     [videoCamera start];
     
     /***************************************UI configuration*****************************************/
@@ -194,8 +194,7 @@ float total_odom = 0;
     _playbackButton.layer.zPosition = 1;
     startButton.enabled = YES;
     _stopButton.enabled = NO;
-    alertView = [[UIAlertView alloc]initWithTitle:@"WARN" message:@"please wait for vocabulary loading!"
-                            delegate:self cancelButtonTitle:@"confirm" otherButtonTitles:@"cancel", nil];
+    alertView = [[UIAlertView alloc]initWithTitle:@"WARN" message:@"please wait for vocabulary loading!" delegate:self cancelButtonTitle:@"confirm" otherButtonTitles:@"cancel", nil];
     
     
     /****************************************Init all the thread****************************************/
@@ -222,8 +221,7 @@ float total_odom = 0;
     bool deviceCheck = setGlobalParam(deviceName());
     if(!deviceCheck)
     {
-        UIAlertController *alertDevice = [UIAlertController alertControllerWithTitle:@"Error"
-                    message:@"Unsupported Device!" preferredStyle:UIAlertControllerStyleAlert];
+        UIAlertController *alertDevice = [UIAlertController alertControllerWithTitle:@"Error" message:@"Unsupported Device!" preferredStyle:UIAlertControllerStyleAlert];
         UIAlertAction *cancelAction = [UIAlertAction actionWithTitle:@"Cancel" style:UIAlertActionStyleCancel handler:^(UIAlertAction * action)
                                        {exit(0);}];
         UIAlertAction *okAction = [UIAlertAction actionWithTitle:@"OK" style:UIAlertActionStyleDefault handler:^(UIAlertAction * action)
@@ -239,8 +237,7 @@ float total_odom = 0;
     bool versionCheck = iosVersion();
     if(!versionCheck)
     {
-        UIAlertController *alertVersion = [UIAlertController alertControllerWithTitle:@"Warn"
-                                          message:@"Please upgrade your iOS version!" preferredStyle:UIAlertControllerStyleAlert];
+        UIAlertController *alertVersion = [UIAlertController alertControllerWithTitle:@"Warn" message:@"Please upgrade your iOS version!" preferredStyle:UIAlertControllerStyleAlert];
         UIAlertAction *cancelAction = [UIAlertAction actionWithTitle:@"Cancel" style:UIAlertActionStyleCancel handler:^(UIAlertAction * action)
                                        {exit(0);}];
         UIAlertAction *okAction = [UIAlertAction actionWithTitle:@"OK" style:UIAlertActionStyleDefault handler:^(UIAlertAction * action)
@@ -799,8 +796,7 @@ bool start_global_optimization = false;
     {
         NSLog(@"loop start load voc");
         TS(load_voc);
-        const char *voc_file = [[[NSBundle bundleForClass:[self class]] pathForResource:@"brief_k10L6" ofType:@"bin"]
-                                cStringUsingEncoding:[NSString defaultCStringEncoding]];
+        const char *voc_file = [[[NSBundle bundleForClass:[self class]] pathForResource:@"brief_k10L6" ofType:@"bin"] cStringUsingEncoding:[NSString defaultCStringEncoding]];
         loop_closure = new LoopClosure(voc_file, COL, ROW);
         TE(load_voc);
         NSLog(@"loop load voc finish");
@@ -943,8 +939,7 @@ vector<IMU_MSG> gyro_buf;  // for Interpolation
     
     [motionManager startDeviceMotionUpdates];
     
-    [motionManager startAccelerometerUpdatesToQueue:[NSOperationQueue currentQueue]
-    withHandler:^(CMAccelerometerData *latestAcc, NSError *error)
+    [motionManager startAccelerometerUpdatesToQueue:[NSOperationQueue currentQueue] withHandler:^(CMAccelerometerData *latestAcc, NSError *error)
      {
          double header = motionManager.deviceMotion.timestamp;
          rotation_imu << motionManager.deviceMotion.attitude.yaw * 180.0 / M_PI,  //yaw
