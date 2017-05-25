@@ -61,6 +61,52 @@
 		8AEB6B421E77C0FA00F9F3EE /* VocabularyBinary.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8AEB6B3F1E77C0FA00F9F3EE /* VocabularyBinary.cpp */; };
 		8AEB6B431E77C0FA00F9F3EE /* VocabularyBinary.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 8AEB6B401E77C0FA00F9F3EE /* VocabularyBinary.hpp */; };
 		8AF3BDB21E6C08B3009A1FEC /* opencv2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C22203881E67072B00B48629 /* opencv2.framework */; };
+		B1309F441ED6B54A000FD048 /* delaunay.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C2442F8B1EBE137600008A26 /* delaunay.cpp */; };
+		B1309F451ED6B54A000FD048 /* delaunay.h in Sources */ = {isa = PBXBuildFile; fileRef = C2442F8C1EBE137600008A26 /* delaunay.h */; };
+		B1309F461ED6B54A000FD048 /* edge.h in Sources */ = {isa = PBXBuildFile; fileRef = C2442F8D1EBE137600008A26 /* edge.h */; };
+		B1309F471ED6B54A000FD048 /* triangle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C2442F8E1EBE137600008A26 /* triangle.cpp */; };
+		B1309F481ED6B54A000FD048 /* triangle.h in Sources */ = {isa = PBXBuildFile; fileRef = C2442F8F1EBE137600008A26 /* triangle.h */; };
+		B1309F491ED6B54A000FD048 /* vector2.h in Sources */ = {isa = PBXBuildFile; fileRef = C2442F901EBE137600008A26 /* vector2.h */; };
+		B1309F4A1ED6B54A000FD048 /* draw_result.hpp in Sources */ = {isa = PBXBuildFile; fileRef = C28EE1D81DDC19DD005C64EA /* draw_result.hpp */; };
+		B1309F4B1ED6B582000FD048 /* TemplatedLoopDetector.h in Sources */ = {isa = PBXBuildFile; fileRef = C22203A61E67124100B48629 /* TemplatedLoopDetector.h */; };
+		B1309F4C1ED6B582000FD048 /* DLoopDetector.h in Sources */ = {isa = PBXBuildFile; fileRef = C22203A71E67124100B48629 /* DLoopDetector.h */; };
+		B1309F4D1ED6B582000FD048 /* demoDetector.h in Sources */ = {isa = PBXBuildFile; fileRef = C22203A91E67124100B48629 /* demoDetector.h */; };
+		B1309F4E1ED6B582000FD048 /* keyframe.h in Sources */ = {isa = PBXBuildFile; fileRef = C22203AA1E67124100B48629 /* keyframe.h */; };
+		B1309F4F1ED6B582000FD048 /* loop_closure.h in Sources */ = {isa = PBXBuildFile; fileRef = C22203AC1E67124100B48629 /* loop_closure.h */; };
+		B1309F501ED6B5A1000FD048 /* FBrief.h in Sources */ = {isa = PBXBuildFile; fileRef = C222038D1E670F2000B48629 /* FBrief.h */; };
+		B1309F511ED6B5A1000FD048 /* FClass.h in Sources */ = {isa = PBXBuildFile; fileRef = C222038E1E670F2000B48629 /* FClass.h */; };
+		B1309F521ED6B5A1000FD048 /* TemplatedVocabulary.h in Sources */ = {isa = PBXBuildFile; fileRef = C22203911E670F2000B48629 /* TemplatedVocabulary.h */; };
+		B1309F531ED6B5A1000FD048 /* BowVector.h in Sources */ = {isa = PBXBuildFile; fileRef = C22203931E670F2000B48629 /* BowVector.h */; };
+		B1309F541ED6B5A1000FD048 /* DBoW2.h in Sources */ = {isa = PBXBuildFile; fileRef = C22203941E670F2000B48629 /* DBoW2.h */; };
+		B1309F551ED6B5A1000FD048 /* FeatureVector.h in Sources */ = {isa = PBXBuildFile; fileRef = C22203971E670F2000B48629 /* FeatureVector.h */; };
+		B1309F561ED6B5A1000FD048 /* QueryResults.h in Sources */ = {isa = PBXBuildFile; fileRef = C222039B1E670F2000B48629 /* QueryResults.h */; };
+		B1309F571ED6B5A1000FD048 /* ScoringObject.h in Sources */ = {isa = PBXBuildFile; fileRef = C222039D1E670F2000B48629 /* ScoringObject.h */; };
+		B1309F581ED6B5A1000FD048 /* TemplatedDatabase.h in Sources */ = {isa = PBXBuildFile; fileRef = C222039E1E670F2000B48629 /* TemplatedDatabase.h */; };
+		B1309F591ED6B5D4000FD048 /* BRIEF.h in Sources */ = {isa = PBXBuildFile; fileRef = C222034F1E66E1B100B48629 /* BRIEF.h */; };
+		B1309F5A1ED6B5D4000FD048 /* DVision.h in Sources */ = {isa = PBXBuildFile; fileRef = C22203521E66E1B100B48629 /* DVision.h */; };
+		B1309F5B1ED6B5D4000FD048 /* DException.h in Sources */ = {isa = PBXBuildFile; fileRef = C22203251E66E0FA00B48629 /* DException.h */; };
+		B1309F5C1ED6B5D4000FD048 /* DUtils.h in Sources */ = {isa = PBXBuildFile; fileRef = C22203261E66E0FA00B48629 /* DUtils.h */; };
+		B1309F5D1ED6B5D4000FD048 /* Timestamp.h in Sources */ = {isa = PBXBuildFile; fileRef = C222032B1E66E0FA00B48629 /* Timestamp.h */; };
+		B1309F5E1ED6B5D4000FD048 /* Random.h in Sources */ = {isa = PBXBuildFile; fileRef = C22203391E66E0FA00B48629 /* Random.h */; };
+		B1309F5F1ED6B5D4000FD048 /* VocabularyBinary.hpp in Sources */ = {isa = PBXBuildFile; fileRef = 8AEB6B401E77C0FA00F9F3EE /* VocabularyBinary.hpp */; };
+		B1309F601ED6B5D4000FD048 /* keyfame_database.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C2442F7B1EB8D61800008A26 /* keyfame_database.cpp */; };
+		B1309F611ED6B5D4000FD048 /* keyfame_database.h in Sources */ = {isa = PBXBuildFile; fileRef = C2442F7C1EB8D61800008A26 /* keyfame_database.h */; };
+		B1309F621ED6B5D4000FD048 /* initial_aligment.hpp in Sources */ = {isa = PBXBuildFile; fileRef = C2626C311E10F1BF008D517E /* initial_aligment.hpp */; };
+		B1309F631ED6B5D4000FD048 /* inital_sfm.hpp in Sources */ = {isa = PBXBuildFile; fileRef = C2626C341E10F202008D517E /* inital_sfm.hpp */; };
+		B1309F641ED6B5D4000FD048 /* motion_estimator.hpp in Sources */ = {isa = PBXBuildFile; fileRef = C2626C371E113A26008D517E /* motion_estimator.hpp */; };
+		B1309F651ED6B5D4000FD048 /* utility.hpp in Sources */ = {isa = PBXBuildFile; fileRef = C25458FB1DBB2D240011DF1C /* utility.hpp */; };
+		B1309F661ED6B5D4000FD048 /* global_param.hpp in Sources */ = {isa = PBXBuildFile; fileRef = C25458E81DB8D0920011DF1C /* global_param.hpp */; };
+		B1309F671ED6B5D4000FD048 /* VINS.hpp in Sources */ = {isa = PBXBuildFile; fileRef = C25458FE1DBB3F460011DF1C /* VINS.hpp */; };
+		B1309F681ED6B5D4000FD048 /* pose_local_parameterization.hpp in Sources */ = {isa = PBXBuildFile; fileRef = C25459011DBB4D070011DF1C /* pose_local_parameterization.hpp */; };
+		B1309F691ED6B5D4000FD048 /* projection_facor.hpp in Sources */ = {isa = PBXBuildFile; fileRef = C25458F71DBB28E20011DF1C /* projection_facor.hpp */; };
+		B1309F6A1ED6B5D4000FD048 /* marginalization_factor.hpp in Sources */ = {isa = PBXBuildFile; fileRef = C25459041DBB89170011DF1C /* marginalization_factor.hpp */; };
+		B1309F6B1ED6B5D4000FD048 /* integration_base.h in Sources */ = {isa = PBXBuildFile; fileRef = C2AB044A1DE84FA500DBF09A /* integration_base.h */; };
+		B1309F6C1ED6B5D4000FD048 /* imu_factor.h in Sources */ = {isa = PBXBuildFile; fileRef = C2AB044C1DE8585400DBF09A /* imu_factor.h */; };
+		B1309F6D1ED6B5D4000FD048 /* loop_closure_factor.hpp in Sources */ = {isa = PBXBuildFile; fileRef = C22203B71E68161D00B48629 /* loop_closure_factor.hpp */; };
+		B1309F6E1ED6B5D4000FD048 /* feature_manager.hpp in Sources */ = {isa = PBXBuildFile; fileRef = C2B5379D1DB8812C00E235BC /* feature_manager.hpp */; };
+		B1309F6F1ED6B5D4000FD048 /* feature_tracker.hpp in Sources */ = {isa = PBXBuildFile; fileRef = C2B5378F1DB64EA100E235BC /* feature_tracker.hpp */; };
+		B1309F701ED6B5D4000FD048 /* CameraUtils.h in Sources */ = {isa = PBXBuildFile; fileRef = 8AE0E4611E7E5C7B0082912B /* CameraUtils.h */; };
+		B1309F711ED6B640000FD048 /* Info.plist in Sources */ = {isa = PBXBuildFile; fileRef = C2B537531DB6491D00E235BC /* Info.plist */; };
 		C222033F1E66E0FA00B48629 /* Timestamp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C222032A1E66E0FA00B48629 /* Timestamp.cpp */; };
 		C22203461E66E0FA00B48629 /* Random.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C22203381E66E0FA00B48629 /* Random.cpp */; };
 		C22203651E66E1B100B48629 /* BRIEF.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C222034E1E66E1B100B48629 /* BRIEF.cpp */; };
@@ -649,7 +695,7 @@
 				TargetAttributes = {
 					8AB3747A1E6BA37400C1E398 = {
 						CreatedOnToolsVersion = 8.2.1;
-						DevelopmentTeam = 22UNC7G33B;
+						DevelopmentTeam = M97RTV2PQG;
 						ProvisioningStyle = Automatic;
 					};
 					C2B5373B1DB6491D00E235BC = {
@@ -739,6 +785,52 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B1309F711ED6B640000FD048 /* Info.plist in Sources */,
+				B1309F591ED6B5D4000FD048 /* BRIEF.h in Sources */,
+				B1309F5A1ED6B5D4000FD048 /* DVision.h in Sources */,
+				B1309F5B1ED6B5D4000FD048 /* DException.h in Sources */,
+				B1309F5C1ED6B5D4000FD048 /* DUtils.h in Sources */,
+				B1309F5D1ED6B5D4000FD048 /* Timestamp.h in Sources */,
+				B1309F5E1ED6B5D4000FD048 /* Random.h in Sources */,
+				B1309F5F1ED6B5D4000FD048 /* VocabularyBinary.hpp in Sources */,
+				B1309F601ED6B5D4000FD048 /* keyfame_database.cpp in Sources */,
+				B1309F611ED6B5D4000FD048 /* keyfame_database.h in Sources */,
+				B1309F621ED6B5D4000FD048 /* initial_aligment.hpp in Sources */,
+				B1309F631ED6B5D4000FD048 /* inital_sfm.hpp in Sources */,
+				B1309F641ED6B5D4000FD048 /* motion_estimator.hpp in Sources */,
+				B1309F651ED6B5D4000FD048 /* utility.hpp in Sources */,
+				B1309F661ED6B5D4000FD048 /* global_param.hpp in Sources */,
+				B1309F671ED6B5D4000FD048 /* VINS.hpp in Sources */,
+				B1309F681ED6B5D4000FD048 /* pose_local_parameterization.hpp in Sources */,
+				B1309F691ED6B5D4000FD048 /* projection_facor.hpp in Sources */,
+				B1309F6A1ED6B5D4000FD048 /* marginalization_factor.hpp in Sources */,
+				B1309F6B1ED6B5D4000FD048 /* integration_base.h in Sources */,
+				B1309F6C1ED6B5D4000FD048 /* imu_factor.h in Sources */,
+				B1309F6D1ED6B5D4000FD048 /* loop_closure_factor.hpp in Sources */,
+				B1309F6E1ED6B5D4000FD048 /* feature_manager.hpp in Sources */,
+				B1309F6F1ED6B5D4000FD048 /* feature_tracker.hpp in Sources */,
+				B1309F701ED6B5D4000FD048 /* CameraUtils.h in Sources */,
+				B1309F501ED6B5A1000FD048 /* FBrief.h in Sources */,
+				B1309F511ED6B5A1000FD048 /* FClass.h in Sources */,
+				B1309F521ED6B5A1000FD048 /* TemplatedVocabulary.h in Sources */,
+				B1309F531ED6B5A1000FD048 /* BowVector.h in Sources */,
+				B1309F541ED6B5A1000FD048 /* DBoW2.h in Sources */,
+				B1309F551ED6B5A1000FD048 /* FeatureVector.h in Sources */,
+				B1309F561ED6B5A1000FD048 /* QueryResults.h in Sources */,
+				B1309F571ED6B5A1000FD048 /* ScoringObject.h in Sources */,
+				B1309F581ED6B5A1000FD048 /* TemplatedDatabase.h in Sources */,
+				B1309F4B1ED6B582000FD048 /* TemplatedLoopDetector.h in Sources */,
+				B1309F4C1ED6B582000FD048 /* DLoopDetector.h in Sources */,
+				B1309F4D1ED6B582000FD048 /* demoDetector.h in Sources */,
+				B1309F4E1ED6B582000FD048 /* keyframe.h in Sources */,
+				B1309F4F1ED6B582000FD048 /* loop_closure.h in Sources */,
+				B1309F441ED6B54A000FD048 /* delaunay.cpp in Sources */,
+				B1309F451ED6B54A000FD048 /* delaunay.h in Sources */,
+				B1309F461ED6B54A000FD048 /* edge.h in Sources */,
+				B1309F471ED6B54A000FD048 /* triangle.cpp in Sources */,
+				B1309F481ED6B54A000FD048 /* triangle.h in Sources */,
+				B1309F491ED6B54A000FD048 /* vector2.h in Sources */,
+				B1309F4A1ED6B54A000FD048 /* draw_result.hpp in Sources */,
 				8A4DD0061E6C13DA009FCC78 /* FBrief.cpp in Sources */,
 				8A4DD0071E6C13DA009FCC78 /* FeatureVector.cpp in Sources */,
 				8AEB6B421E77C0FA00F9F3EE /* VocabularyBinary.cpp in Sources */,
@@ -864,12 +956,13 @@
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 22UNC7G33B;
+				DEVELOPMENT_TEAM = M97RTV2PQG;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "VINS-ios-framework/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/VINS_ios/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.ambergarage.VINS-ios-framework";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -886,12 +979,13 @@
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 22UNC7G33B;
+				DEVELOPMENT_TEAM = M97RTV2PQG;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "VINS-ios-framework/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/VINS_ios/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.ambergarage.VINS-ios-framework";
 				PRODUCT_NAME = "$(TARGET_NAME)";
