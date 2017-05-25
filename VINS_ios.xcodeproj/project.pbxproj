@@ -1053,7 +1053,7 @@
 					"$(PROJECT_DIR)/ThirdParty",
 					/usr/local/include,
 				);
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LIBRARY_SEARCH_PATHS = (
 					"$(PROJECT_DIR)/VINS_ThirdPartyLib/ceres-solver/ceres-bin/lib",
 					"$(PROJECT_DIR)/ThirdParty",
@@ -1119,7 +1119,7 @@
 					"$(PROJECT_DIR)/ThirdParty",
 					/usr/local/include,
 				);
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LIBRARY_SEARCH_PATHS = (
 					"$(PROJECT_DIR)/VINS_ThirdPartyLib/ceres-solver/ceres-bin/lib",
 					"$(PROJECT_DIR)/ThirdParty",
